@@ -1,0 +1,21 @@
+name: nickSoldin
+main: me.nickSoldin.Main
+version: 1.0.0
+api-version: 1.16
+authors: [ "you" ]
+description: Nick visibility radius & world-colored names with PAPI
+softdepend: [PlaceholderAPI]
+commands:
+  nicksoldin:
+    description: Main command for NickSoldin
+    usage: /nicksoldin reload|setradius <value>|toggle <distance|worldcolors> <on|off>
+    permission: nicksoldin.use
+permissions:
+  nicksoldin.use:
+    default: true
+  nicksoldin.reload:
+    default: op
+  nicksoldin.setradius:
+    default: op
+  nicksoldin.toggle:
+    default: op
